@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Souvenir Safari — Souvenirs Worth the Hunt</title>
+<meta name="description" content="Travel souvenirs, remembrances, and destination-themed goods. Bring the trip home.">
+<style>
+  :root { --olive:#4a4a2f; --khaki:#efe9d8; --terra:#c96f2f; --leaf:#7c8b52; --ink:#33331f; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:'Verdana', 'Segoe UI', sans-serif; background:var(--khaki); color:var(--ink); line-height:1.65; }
+  .wrap { max-width:980px; margin:0 auto; padding:0 1.5rem; }
+  header { background:var(--olive); color:var(--khaki); border-bottom:5px solid var(--terra); }
+  nav { display:flex; justify-content:space-between; align-items:center; padding:1.1rem 0; }
+  .logo { font-weight:700; font-size:1.2rem; letter-spacing:.1em; text-transform:uppercase; }
+  .logo span { color:var(--terra); }
+  nav a { color:var(--khaki); text-decoration:none; font-size:.86rem; margin-left:1.4rem; }
+  nav a:hover { color:#e0a458; }
+  .hero { padding:4.5rem 0; display:grid; grid-template-columns:1fr auto; gap:2rem; align-items:center; }
+  .hero h1 { font-size:clamp(1.9rem,4.6vw,2.8rem); line-height:1.2; }
+  .hero h1 em { font-style:normal; color:var(--terra); }
+  .hero p { margin-top:.9rem; max-width:520px; opacity:.9; }
+  .cta { display:inline-block; margin-top:1.6rem; background:var(--terra); color:#fff; font-weight:700; padding:.8rem 1.7rem; text-decoration:none; border-radius:6px; letter-spacing:.03em; }
+  .compass { font-size:5rem; opacity:.9; }
+  @media (max-width:640px){ .hero{grid-template-columns:1fr; text-align:center;} .compass{display:none;} }
+  .stamps { background:#fff; border-top:1px solid #ddd5bf; border-bottom:1px solid #ddd5bf; }
+  .stamps .wrap { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; padding:1rem 1.5rem; font-size:.8rem; letter-spacing:.14em; text-transform:uppercase; color:#8a8a68; }
+  section { padding:3.3rem 0; }
+  h2 { font-size:1.45rem; color:var(--olive); text-transform:uppercase; letter-spacing:.08em; }
+  h2::after { content:""; display:block; width:52px; height:3px; background:var(--terra); margin-top:.5rem; }
+  .sub { color:#6d6d4e; margin:.8rem 0 1.6rem; max-width:600px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.2rem; }
+  .card { background:#fff; border:1px solid #ddd5bf; border-radius:10px; padding:1.4rem 1.3rem; }
+  .card h3 { font-size:.98rem; color:var(--olive); text-transform:uppercase; letter-spacing:.05em; margin-bottom:.45rem; }
+  .card h3 .dot { color:var(--terra); }
+  .card p { font-size:.9rem; color:#6d6d4e; }
+  .notice { margin-top:1.7rem; background:#fff; border-left:4px solid var(--leaf); border-radius:6px; padding:1rem 1.3rem; font-size:.92rem; color:#6d6d4e; }
+  form { display:grid; gap:.9rem; max-width:620px; margin-top:1.2rem; }
+  label { font-size:.82rem; font-weight:700; color:var(--olive); letter-spacing:.03em; }
+  input, select, textarea { width:100%; padding:.7rem; border:1px solid #cfc7ac; border-radius:6px; background:#fff; font:inherit; font-size:.95rem; }
+  input:focus, select:focus, textarea:focus { outline:2px solid var(--terra); }
+  .optin { display:flex; gap:.6rem; align-items:flex-start; background:#fff; border:1px solid #ddd5bf; border-radius:6px; padding:.9rem; }
+  .optin input { width:auto; margin-top:.25rem; }
+  .optin span { font-size:.78rem; color:#6d6d4e; line-height:1.5; font-weight:400; letter-spacing:0; }
+  .optin a { color:var(--terra); }
+  button { background:var(--olive); color:var(--khaki); font-weight:700; padding:.85rem 1.7rem; border:0; border-radius:6px; cursor:pointer; letter-spacing:.05em; text-transform:uppercase; }
+  button:hover { background:#5c5c3a; }
+  #form-status { font-size:.9rem; margin-top:.4rem; color:var(--terra); }
+  footer { background:var(--olive); color:#cfc7ac; font-size:.82rem; padding:2rem 0; border-top:5px solid var(--terra); }
+  footer .wrap { display:flex; flex-wrap:wrap; gap:.8rem; justify-content:space-between; }
+  footer a { color:#e0a458; text-decoration:none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo">Souvenir <span>Safari</span></div>
+      <div><a href="#finds">The Finds</a><a href="#contact">Contact</a></div>
+    </nav>
+    <div class="hero">
+      <div>
+        <h1>Souvenirs worth <em>the hunt</em>.</h1>
+        <p>Travel remembrances and destination-themed goods that actually earn a place on the shelf — because the trip deserved better than a fridge magnet.</p>
+        <a class="cta" href="#contact">Track One Down</a>
+      </div>
+      <div class="compass">&#129517;</div>
+    </div>
+  </div>
+</header>
+
+<div class="stamps"><div class="wrap"><span>Destinations</span><span>&#9670;</span><span>Remembrances</span><span>&#9670;</span><span>Travel Goods</span><span>&#9670;</span><span>Keepsakes</span></div></div>
+
+<section id="finds">
+  <div class="wrap">
+    <h2>The Finds</h2>
+    <p class="sub">Every piece starts with a place. Our designs turn destinations into keepsakes.</p>
+    <div class="cards">
+      <div class="card"><h3><span class="dot">&#9670;</span> Destination Designs</h3><p>Goods themed to the places you've been — and the ones still on the list.</p></div>
+      <div class="card"><h3><span class="dot">&#9670;</span> Remembrances</h3><p>Keepsakes that mark the trip: the year, the place, the story.</p></div>
+      <div class="card"><h3><span class="dot">&#9670;</span> Travel-Life Goods</h3><p>Items for the travel-obsessed everyday — home, desk, and on the road.</p></div>
+    </div>
+    <div class="notice">Our full catalog is being restocked for a new season of finds. Ask below about current items or a destination you'd like to see.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="sub">Call or text <strong>(936) 297-6443</strong>, or send a message.</p>
+    <form id="contact-form">
+      <div><label for="name">Full Name *</label><input id="name" name="name" required autocomplete="name"></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+      <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div><label for="message">Message *</label><textarea id="message" name="message" rows="4" required placeholder="Question, item request, or destination you'd like to see…"></textarea></div>
+      <label class="optin"><input type="checkbox" id="sms_optin" name="sms_optin" value="yes">
+        <span>I agree to receive text messages from Souvenir Safari (a DBA of Advisors Group International Inc) under the <strong>Souvenir Safari Order &amp; Service Updates</strong> program (responses to inquiries, order confirmations, shipping updates, requests for missing information). Message frequency varies. Message and data rates may apply. Reply STOP to cancel, HELP for help. Consent is not a condition of any purchase. See our <a href="/privacy.html">Privacy Policy</a> and <a href="/terms.html">Terms of Use</a>.</span></label>
+      <div><button type="submit">Send Message</button><div id="form-status" role="status"></div></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Advisors Group International Inc, DBA Souvenir Safari &middot; Montgomery, Texas &middot; (936) 297-6443</div>
+    <div><a href="/privacy.html">Privacy Policy</a> &middot; <a href="/terms.html">Terms of Use</a></div>
+  </div>
+</footer>
+
+<script>
+const ENDPOINT = "PENDING_BRIDGE_URL";
+document.getElementById("contact-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const f = e.target, s = document.getElementById("form-status");
+  const data = Object.fromEntries(new FormData(f).entries());
+  data.business = "SS"; data.source = "thesouvenirsafari.com";
+  if (!data.email && !data.phone) { s.textContent = "Please provide an email or phone number so we can reach you."; return; }
+  if (ENDPOINT.startsWith("PENDING")) { s.textContent = "Our online form is being upgraded — please call or text (936) 297-6443."; return; }
+  try {
+    const r = await fetch(ENDPOINT, { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(data) });
+    if (!r.ok) throw 0;
+    f.reset(); s.textContent = "Thanks — message received! We'll be in touch shortly.";
+  } catch { s.textContent = "Something went wrong. Please call or text (936) 297-6443."; }
+});
+</script>
+</body>
+</html>
